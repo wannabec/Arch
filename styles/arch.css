@@ -20,8 +20,13 @@ h1 {
   padding-bottom: 20px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 p {
   font-family: var(--default-font-family);
+  font-size: 16px;
 }
 
 .hero {
@@ -42,4 +47,37 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-sub-find-out-more {
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--arch-colour);
+  border-radius: 4;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.description {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-style {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+  }
+  .description {
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 5px;
+  }
 }
