@@ -1,12 +1,45 @@
-body {
-  background-color: blueviolet;
+:root {
+  --arch-colour: #6c63;
+  --background-colour: #f9f7fe;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
+h1 {
+  font-size: 75px;
+  padding-bottom: 20px;
+}
+
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background-color: var(--background-colour);
+  text-align: center;
+  padding: 160px 10px;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.btn-find-out-more {
+  background: var(--arch-colour);
+  border-radius: 4;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
