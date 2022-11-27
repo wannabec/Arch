@@ -60,14 +60,9 @@ p {
 }
 
 .description {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.image-style {
-  display: block;
-  margin: auto;
 }
 
 @media (max-width: 960px) {
