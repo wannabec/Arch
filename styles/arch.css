@@ -60,7 +60,7 @@ nav li.active a {
 .hero {
   background-color: var(--background-colour);
   text-align: center;
-  padding: 160px 10px;
+  padding: 80px 10px;
 }
 
 .hero h2 {
@@ -111,7 +111,7 @@ nav li.active a {
 .sub-page-top-section {
   background-color: white;
   text-align: center;
-  padding: 160px 10px;
+  padding: 80px 10px;
 }
 
 .arch_logo {
