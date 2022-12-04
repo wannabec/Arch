@@ -29,6 +29,33 @@ p {
   font-size: 16px;
 }
 
+nav {
+  padding: 30px 0;
+}
+
+nav ul {
+  padding: 17px 0;
+  color: black;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: darkgreen;
+  transition: all 100ms ease-in-out;
+}
+
 .hero {
   background-color: var(--background-colour);
   text-align: center;
@@ -86,6 +113,11 @@ p {
   padding: 160px 10px;
 }
 
+.arch_logo {
+  max-width: 150px;
+  max-height: 60px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
@@ -106,5 +138,19 @@ p {
 
   .sub-page-top-section {
     padding: 80px 5px;
+  }
+
+  .arch_logo {
+    max-width: 100px;
+    max-height: 40px;
+  }
+
+  nav ul {
+    padding-top: 0;
+    padding-left: 3px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
